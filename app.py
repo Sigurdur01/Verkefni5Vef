@@ -24,9 +24,9 @@ def form_process():
 
         return template("namskeid",name=name,home=home,gmail=gmail,phone=phone,food=food,classes=classes,sub=sum,total=sumMVsk)
 
-@route('/static/<skra>')
-def static_skrar(skra):
-        return static_file(skra, root='./static/')
+#@route('/static/<skra>')
+#def static_skrar(skra):
+#        return static_file(skra, root='./static/')
 
 
 run(host="0.0.0.0", port=os.environ.get('PORT'))
