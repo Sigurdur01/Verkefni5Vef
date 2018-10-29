@@ -1,6 +1,5 @@
 <html>
 <head>
-  <link href='/static/CSS.css' rel='stylesheet'>
   <title>{{title or 'No title'}}</title>
     
 </head>
